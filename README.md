@@ -1,6 +1,6 @@
 App using create-react-app with react v16, react-router v4 and react-router-redux v5.
 
-View of demo [here](http://simple-react-redux-app.rachelholtz.com/).
+View of demo [here](https://simple-react-redux-app.rachelholtz.com/).
 
 This app was created using the [course by Wes Bos](https://learnredux.com/) but with help from this [repo](https://github.com/jaime-ez/learn-redux) by jaime-ez to update to V4.
 
