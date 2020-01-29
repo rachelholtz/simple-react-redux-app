@@ -1,0 +1,153 @@
+.likes-heart {
+  background: url("http://f.cl.ly/items/3Y373q2Q3J3Y1j203n0m/Bitmap-3.png") center no-repeat;
+  background-size: contain;
+  color: #000;
+  display: block;
+  font-size: 2rem;
+  opacity: 0;
+  padding: 1rem;
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.5s;
+  transform: translateX(-50%) translateY(-50%) scale(5);
+}
+.likes-heart.like-enter {
+  transition: all 0.2s;
+  transform: translateX(-50%) translateY(-50%) scale(1);
+  opacity: 1;
+}
+.likes-heart.like-enter.like-enter-active {
+  transform: translateX(-50%) translateY(-50%) scale(5);
+}
+.likes-heart .like-leave-active {
+  display: none;
+}
+footer {
+  background: #c27d38;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  width: 100%;
+}
+footer span {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+footer a {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,600&display=swap");
+@import url("../vendor/fontawesome/solid.min.css");
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+body h1,
+body h2,
+body h3 {
+  font-weight: 600;
+}
+body p {
+  font-weight: 300;
+}
+body a {
+  color: #f6aeb1;
+  transition: 0.3s ease all;
+}
+body a:hover {
+  color: rgba(0,0,0,0.6);
+  text-decoration: none;
+}
+body span.heart-emoji {
+  color: #f00;
+  margin-right: 2px;
+}
+body button {
+  border-radius: 6px;
+  box-shadow: inset 0 -4px 3px 0 rgba(0,0,0,0.3);
+  padding: 3px 10px 7px;
+}
+body button:hover {
+  background-color: #f00;
+  transition: 0.3s ease all;
+}
+body button:hover span {
+  color: #fff;
+}
+.main_movie-grid figure img {
+  transition: 0.3s ease all;
+}
+.main_movie-grid figure img:hover {
+  transform: scale(1.05) perspective(1px) translateZ(0);
+}
+header {
+  background: #74a089;
+  padding: 20px 0;
+}
+header .logo {
+  max-width: 70px;
+}
+header .logo svg {
+  transition: 0.3s ease all;
+  width: 100%;
+}
+header .logo svg:hover {
+  fill: #f6aeb1;
+}
+.single-photo .learn-more {
+  display: flex;
+  align-items: center;
+}
+.single-photo .learn-more:after {
+  content: '\f054';
+  font-family: 'Font Awesome 5 Free';
+  font-size: 11px;
+  font-weight: 900;
+  margin-left: 5px;
+}
+body {
+  margin: 0;
+}
+body .o-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: sans-serif;
+  height: 100vh;
+  width: 100%;
+}
+body .not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+body .not-found-container h1 {
+  color: #74a089;
+  font-family: sans-serif;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .not-found-container .button {
+  background: #9a8822;
+  border: 2px solid #9a8822;
+  color: #fff;
+  display: block;
+  font-family: sans-serif;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s all ease;
+}
+body .not-found-container .button:hover {
+  background: #fff;
+  color: #9a8822;
+}
